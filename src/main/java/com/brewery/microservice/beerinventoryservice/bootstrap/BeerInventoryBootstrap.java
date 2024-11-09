@@ -1,7 +1,7 @@
-package com.microservice.beerinventoryservice.bootstrap;
+package com.brewery.microservice.beerinventoryservice.bootstrap;
 
-import com.microservice.beerinventoryservice.domain.BeerInventory;
-import com.microservice.beerinventoryservice.repository.BeerInventoryRepository;
+import com.brewery.microservice.beerinventoryservice.domain.BeerInventory;
+import com.brewery.microservice.beerinventoryservice.repository.BeerInventoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
@@ -12,7 +12,7 @@ import java.util.UUID;
 @Slf4j
 @RequiredArgsConstructor
 @Component
-public class BeerInvntoryBootstrap implements CommandLineRunner {
+public class BeerInventoryBootstrap implements CommandLineRunner {
     public static final String BEER_1_UPC = "0631234200036";
     public static final String BEER_2_UPC = "0631234300019";
     public static final String BEER_3_UPC = "0083783375213";

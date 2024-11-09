@@ -1,6 +1,6 @@
-package com.microservice.beerinventoryservice.repository;
+package com.brewery.microservice.beerinventoryservice.repository;
 
-import com.microservice.beerinventoryservice.domain.BeerInventory;
+import com.brewery.microservice.beerinventoryservice.domain.BeerInventory;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

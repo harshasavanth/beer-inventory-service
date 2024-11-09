@@ -1,6 +1,6 @@
-package com.microservice.beerinventoryservice.service;
+package com.brewery.microservice.beerinventoryservice.service;
 
-import com.microservice.beerinventoryservice.web.model.BeerInventoryDto;
+import com.brewery.microservice.beerinventoryservice.web.model.BeerInventoryDto;
 
 import java.util.List;
 import java.util.UUID;

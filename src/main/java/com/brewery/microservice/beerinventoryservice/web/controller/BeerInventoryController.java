@@ -1,7 +1,7 @@
-package com.microservice.beerinventoryservice.web.controller;
+package com.brewery.microservice.beerinventoryservice.web.controller;
 
-import com.microservice.beerinventoryservice.service.BeerInventoryService;
-import com.microservice.beerinventoryservice.web.model.BeerInventoryDto;
+import com.brewery.microservice.beerinventoryservice.service.BeerInventoryService;
+import com.brewery.microservice.beerinventoryservice.web.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -21,8 +21,9 @@ public class BeerInventoryController {
     private final BeerInventoryService beerInventoryService;
 
 
-    @GetMapping("api/v1/beer/{beerId}/inventory")
+    @GetMapping("/api/v1/beer/{beerId}/inventory")
     public ResponseEntity<List<BeerInventoryDto>> listBeersById(@PathVariable UUID beerId) {
+        System.out.println();
         return new ResponseEntity<List<BeerInventoryDto>>(beerInventoryService.getBeerById(beerId), HttpStatus.OK);
 
     }

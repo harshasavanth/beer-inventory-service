@@ -1,8 +1,8 @@
-package com.microservice.beerinventoryservice.service;
+package com.brewery.microservice.beerinventoryservice.service;
 
-import com.microservice.beerinventoryservice.repository.BeerInventoryRepository;
-import com.microservice.beerinventoryservice.web.mapper.BeerInventoryMapper;
-import com.microservice.beerinventoryservice.web.model.BeerInventoryDto;
+import com.brewery.microservice.beerinventoryservice.repository.BeerInventoryRepository;
+import com.brewery.microservice.beerinventoryservice.web.mapper.BeerInventoryMapper;
+import com.brewery.microservice.beerinventoryservice.web.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

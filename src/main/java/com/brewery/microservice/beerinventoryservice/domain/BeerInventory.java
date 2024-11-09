@@ -1,4 +1,4 @@
-package com.microservice.beerinventoryservice.domain;
+package com.brewery.microservice.beerinventoryservice.domain;
 
 import jakarta.persistence.Entity;
 import lombok.Builder;
