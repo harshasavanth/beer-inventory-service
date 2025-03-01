@@ -1,1 +1,2 @@
 # Beer Inventory Service
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/UxUXx7ps6J9YrmUsAHoAfA/Uy4snddGKH56mDypYJLwhU/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/UxUXx7ps6J9YrmUsAHoAfA/Uy4snddGKH56mDypYJLwhU/tree/main)
